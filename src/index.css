@@ -1,17 +1,42 @@
 
 .wrapper {
-    border: 2px dotted rgb(96, 139, 168);
-    width: 500px;
-    height: 100px;
+    
+    width: 990px;
+    height: 500px;
+    
+   
   }
 .box {
-
     display: flex;
     flex-wrap: wrap;
     margin:-10px;
+    margin-left: 200px;
   }
   .box>* {
-    flex: 1 1 160px;
-    margin: 10px;
+    flex: 1 1 150px;
+    margin: 50px;
 
   }
+
+.title{
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.icons{
+  color: rgb(169, 169, 247);
+  margin-top: 20px;
+  margin-left: -70px;
+  margin-bottom: -70px;
+  padding: 15px;
+  border: 1px solid rgb(211, 207, 207);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.text{
+  margin-left: 10px;
+}
