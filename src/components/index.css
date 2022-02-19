@@ -35,6 +35,8 @@
 .text{
   margin-left: 10px;
 }
+
+/*******************************/
 :root{
   --primary:#4628ff;
   --danger:#eb3f27;
@@ -81,6 +83,15 @@
   border: 1px solid blue;
   border-radius: 15px;
   margin-top: 50px;
+}
+.my-img{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 110px;
+  margin-top: -45px;
+  
 }
 .name{
   position: relative;
