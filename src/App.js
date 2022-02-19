@@ -1,11 +1,11 @@
 import React  from "react";
-import MyList from "./MyList";
-import "./index.css"
+import MyList from "./components/MyList";
+import Cards from './components/cards';
 
 function App() {
 
   return(
-    <MyList/>
+    <><MyList /><Cards /></>
   )
  
 }

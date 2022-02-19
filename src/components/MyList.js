@@ -24,21 +24,7 @@ const personList=Data.map(word=>
 <div className='text'>{word.text}</div> 
 
 </div>
-
 )
-    
-   // const personList=Data.map(word => {
-    //    return(
-    //        <div className="item1">
-    //            <div className="icon">{word.icon}</div>
-    //            <div className="left">
-   //                 <h6>{word.title}</h6>
-    //                <p>{word.text}</p>
-    //            </div>
-    //        </div>
-    //    )
-   // })}
    return <div className="wrapper box">{personList}</div>
 }
-
 export default MyList;
