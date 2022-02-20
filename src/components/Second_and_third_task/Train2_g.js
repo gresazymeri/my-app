@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { accData } from "./data";
+import { accData } from "./Mydata";
 import { IconContext } from "react-icons";
 import {FaAngleRight, FaAngleUp } from "react-icons/fa";
-import './Accord.css'
+import './train.css'
 import {FiPlus, FiMinus} from "react-icons/fi";
 const AccordionSection = styled.div`
     display:flex;

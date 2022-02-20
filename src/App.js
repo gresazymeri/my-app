@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import MyList from "./components/First_task/MyList";
 import Cards from './components/First_task/cards';
-import Third from './components/Second_task/Third';
+import Third from './components/Second_and_third_task/Third';
 import styled from 'styled-components'
-import { Tab, Tabs, TabPanel } from './components/Second_task/Simpletabs';
-import Accordion from './components/Second_task/Accordion';
-import AccordionJr from './components/Second_task/AccordionJr';
-import Accord from './components/Second_task/train';
+import { Tab, Tabs, TabPanel } from './components/Second_and_third_task/Simpletabs';
+import Accordion from './components/Second_and_third_task/Train2';
+import AccordionJr from './components/Second_and_third_task/Train2_g';
+import Accord from './components/Second_and_third_task/Train';
 import "./App.css"
 import {
   Wordpress,
@@ -16,7 +16,7 @@ import {
   Webhosting,
   DS,
   VPS
-} from './components/Second_task/data';
+} from './components/Second_and_third_task/Mydata';
 
 const TabsContainer = styled.div`
   display:flex;

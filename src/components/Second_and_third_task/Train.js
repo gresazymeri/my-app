@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { firstAccord } from "./data";
+import { firstAccord } from "./Mydata";
 import { IconContext } from "react-icons";
 import {FaAngleDown, FaAngleRight, FaAngleUp } from "react-icons/fa";
 import { MdPersonOutline } from "react-icons/md";
-import AccordionJr from "./AccordionJr";
 import './train.css'
 const AccordionSection = styled.div`
     display:flex;

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { oneAccord } from "./data";
-import './Accord'
+import { oneAccord } from "./Mydata";
+import './Train'
 import { IconContext } from "react-icons";
 import {FaAngleDown, FaAngleRight, FaAngleUp } from "react-icons/fa";
-import './Accord.css'
+import './train.css'
 const AccordionSection = styled.div`
     display:flex;
     flex-direction: column;

@@ -39,9 +39,6 @@ export const Free = [
     {id:1, name:"Galaxy", price:"$1.00/yr"},
     {id:2, name:"Universe", price:"$5.99/yr"}
   ]
-  
-
-  
 export const firstAccord = [
   {
     image: "https://img.icons8.com/ios-glyphs/30/000000/person-male.png",
@@ -70,5 +67,4 @@ export const accData = [
     question: "when was parkname first founded",
     answer: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour," 
   },
-
 ]
