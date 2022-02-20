@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { Tab, Tabs, TabPanel } from './components/Second_task/Simpletabs';
 import Accordion from './components/Second_task/Accordion';
 import AccordionJr from './components/Second_task/AccordionJr';
-import Accord from './components/Second_task/Accord';
+import Accord from './components/Second_task/train';
 import "./App.css"
 import {
   Wordpress,

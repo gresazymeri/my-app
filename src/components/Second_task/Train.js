@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 import {FaAngleDown, FaAngleRight, FaAngleUp } from "react-icons/fa";
 import { MdPersonOutline } from "react-icons/md";
 import AccordionJr from "./AccordionJr";
-import './Accord.css'
+import './train.css'
 const AccordionSection = styled.div`
     display:flex;
     flex-direction: column;
