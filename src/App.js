@@ -8,7 +8,6 @@ import Accordion from './components/Second_task/Accordion';
 import AccordionJr from './components/Second_task/AccordionJr';
 import Accord from './components/Second_task/Accord';
 import "./App.css"
-
 import {
   Wordpress,
   Email,
