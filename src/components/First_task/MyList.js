@@ -1,6 +1,6 @@
-import { FaBeer , FaAward,FaPercent,FaRuler,FaSearch,FaBullhorn,FaRegLightbulb,FaAt} from 'react-icons/fa';
+import { FaAward,FaPercent,FaRuler,FaSearch,FaBullhorn,FaRegLightbulb,FaAt} from 'react-icons/fa';
 import { AiOutlineFontSize,AiOutlineGlobal } from "react-icons/ai";
-import "./index.css"
+import "./firstTask.css"
 function MyList (){
 
     const Data=[

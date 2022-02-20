@@ -1,4 +1,3 @@
-
 .wrapper {
     width: 990px;
     height: 500px;
@@ -8,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     margin:-10px;
-    margin-left: 200px;
+    margin-left: 0px;
     margin-bottom: 150px;
   }
   .box>* {
@@ -18,7 +17,7 @@
 .title{
   font-size: 20px;
   padding-bottom: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(73, 73, 73);
   font-weight: bold;
 }
 .icons{
@@ -45,7 +44,7 @@
 }
 .card{
   width: 300px;
-  height: 300px;
+  height: 350px;
   border: 1px solid rgb(221, 220, 220);
   border-radius: 20px;
   margin: 20px;
@@ -70,11 +69,15 @@
   width: 70px;
   height: 20px;
   margin-top: 15px;
-  cursor: pointer;
   transition: transform 0.3s ease;
+  border-style: none;
+  color: white;
+
 }
+
 .btn-n:hover{
   transform: translateY(-3px);
+ 
 }
 .second-btn{
   background-color: #ffffff;
@@ -83,17 +86,19 @@
   border: 1px solid blue;
   border-radius: 15px;
   margin-top: 50px;
+  
 }
 .my-img{
   position: absolute;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin-left: 110px;
-  margin-top: -45px;
+  margin-left: -110px;
+  margin-top: -5px;
   
 }
 .name{
+  font-size: 18px;
   position: relative;
   margin-left: 150px;
   margin-top: -20px;
@@ -113,3 +118,7 @@
   color: var(--white);
 }
 
+.mytitle{
+  text-align: center;
+  font-size: 15px;
+}

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+body{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.App {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  
+}
+.App .openModalBtn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2072EF;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.App .openModalBtn:hover {
+  background-color: #396dbb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs  {
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+
+
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+.orderList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.listItems{
+  font-size: 18px;
+  list-style: none;
+  margin: 22px;
+  color: #555;
+  width: 240px;
+  height: 200px;
+  border-radius: 6px;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+.middle p{
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+p.underline{
+  font-size: 11px;
+  font-weight: 500;
+}
+.middle{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.listButton{
+  width: 90%;
+  border: 1px solid #2072EF;
+  background: none;
+  border-radius: 4px;
+  padding: 0.6rem;
+  cursor: pointer; 
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #2072EF;
+  font-weight: 600;
+}
+.listButton:hover{
+  width: 90%;
+  background:#2072EF;
+  border-radius: 4px;
+  padding: 0.6rem;
+  cursor: pointer;
+  color: #FFF;
+  transition: all 0.5s ease-in; 
+}
+
+.priceTable{
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+TabsContainer{
+  background-color: #396dbb;
+}

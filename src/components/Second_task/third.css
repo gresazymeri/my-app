@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.modalBackground {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }  
+  .modalContainer {
+    width: 800px;
+    height: 65vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+    padding: 0 1.5rem;
+  }
+  .title a{
+      text-decoration: none;
+      color: #2072EF;
+      font-size: 15px;
+      font-weight: 600;
+  }
+  .title h1{
+      padding: 0;
+      color: #444444;
+      font-size: 22px;
+      margin: 0;
+      font-family: 'Nunito';
+  }
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .modalContainer .footer {
+    display: flex;
+    justify-content: right;
+    padding: 0 1.5rem;
+    align-items: end;
+  }
+  .colorList{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: .5rem;
+    width: 100%;
+  }
+  .colorLines{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(65, 62, 62, 0.214) ;
+    align-items: center;
+  }
+  .colorLines p{
+    padding: 0;
+    margin: 0;
+    padding: 0 0rem;
+    font-size: 17px;
+    color: #444444;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+  }
+  .imgs{
+      display: flex;
+      flex-direction: row;     
+      align-items: center;
+  }
+  
+  .imgs p{
+      margin: 0 0.3rem;
+  }
+  .modalContainer .footer button {
+    width: 100px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rgba(51, 51, 51, 0.356);
+  }
+  .contBtn{
+      margin-left: 35px;
+  }
+  .modalContainer .footer button:hover{      
+    background-color: #2072EF;
+    border: 2px solid #2072EF;
+    color: #ffff;
+  }
+  .boxColor{
+    border: 1px solid #e2dcdcf4; 
+    width: 35px;
+    height: 14px;
+    border-radius: 4px;
+    margin: 0 .5rem;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
